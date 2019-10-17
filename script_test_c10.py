@@ -7,6 +7,8 @@ shared = sys.argv[2]
 setting = sys.argv[3]
 name = sys.argv[4]
 
+dataroot = '/home/yu/datasets/'		# PLEASE EDIT THIS
+
 if level == 0:
 	common_corruptions = ['cifar_new']
 else:
