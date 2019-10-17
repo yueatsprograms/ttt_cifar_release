@@ -1,6 +1,6 @@
 Code release for [Test-Time Training for Out-of-Distribution Generalization](https://arxiv.org/abs/1909.13231).\
 This code produces our results on CIFAR-10-C and CIFAR-10.1. 
-The ImageNet results are produced by [this other repository](https://github.com/yueatsprograms/ttt_imagenet_release).
+The ImageNet results are produced by [this repository](https://github.com/yueatsprograms/ttt_imagenet_release).
 
 ## Requirements
 1. Our code requires pytorch version 1.0 or higher, with at least one modern GPU of adequate memory.
@@ -24,3 +24,7 @@ from [this repository](https://github.com/modestyachts/CIFAR-10.1).
 	- `dataroot` variable in `script_test_c10.py`.
 3. Run `script.sh` for the main results, and `script_baseline.sh` for the baseline results.
 4. The results are stored in the respective folders in `results/`.
+5. Once everything is finished, the results can be compiled and visualized with the following utilities:
+	- `show_table.py` parses the results into tables and prints them.
+	- `show_plot.py` makes bar plots like those in our paper, and prints the tables in latex format; requires first running `show_table.py`.
+	- `show_grad.py` makes the gradient correlation plot in our paper.
