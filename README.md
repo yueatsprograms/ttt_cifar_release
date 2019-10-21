@@ -21,6 +21,7 @@ from [this repository](https://github.com/modestyachts/CIFAR-10.1).
 `git clone https://github.com/yueatsprograms/ttt_cifar_release`.
 2. Inside the repository, set the data folder to where the datasets are stored by editing:
 	- `--dataroot` argument in `main.py`.
+	- `--dataroot` argument in `baseline.py`.
 	- `dataroot` variable in `script_test_c10.py`.
 3. Run `script.sh` for the main results, and `script_baseline.sh` for the baseline results.
 4. The results are stored in the respective folders in `results/`.
