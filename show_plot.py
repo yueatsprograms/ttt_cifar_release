@@ -29,7 +29,7 @@ def easy_barplot(table, fname, width=0.2):
 		plt.bar(index + i*width, row, width, label=labels[i])
 
 	plt.ylabel('Error (%)')
-	plt.xticks(index + width/4, corruptions_names[1:])
+	plt.xticks(index + width/4, corruptions_names)
 	plt.xticks(rotation=45)
 	plt.legend(prop={'size': 8})
 	plt.tight_layout(pad=0)
