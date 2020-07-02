@@ -1,4 +1,4 @@
-Code release for [Test-Time Training for Out-of-Distribution Generalization](https://arxiv.org/abs/1909.13231).\
+Code release for [Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](https://arxiv.org/abs/1909.13231).\
 This code produces our results on CIFAR-10-C and CIFAR-10.1. 
 The ImageNet results are produced by [this repository](https://github.com/yueatsprograms/ttt_imagenet_release).
 
